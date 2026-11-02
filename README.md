@@ -60,3 +60,4 @@ Default SQLite file is created in the backend working directory. To use PostgreS
 
 ## Limitations
 Dependency relationships are manually entered; source-code parsing and Git integration are future enhancements. Risk scores are heuristic priority scores, not defect probabilities. Authentication is not implemented, so this is an academic local prototype, not a secured public service.
+Software Change Impact Analysis and Test Recommendation Platform
