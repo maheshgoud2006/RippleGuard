@@ -40,6 +40,14 @@ npm run dev
 ```
 Open the localhost URL printed by Vite, usually http://localhost:5173.
 
+## Deploy to Vercel
+This project is set up for Vercel deployment as a Vite app.
+
+Option 1: Set the Vercel project root to the `frontend` directory and use the default Vite build.
+Option 2: Deploy the repository root directly with the included `vercel.json`, which builds `frontend` and publishes `frontend/dist`.
+
+If you use a custom `VITE_API_URL` in Vercel, set it to your deployed backend URL (for example `https://your-api.vercel.app` or your production API domain).
+
 ## Demo
 1. Create `Online Shopping System`.
 2. Add modules `Authentication`, `Payment`, and `Checkout`.
